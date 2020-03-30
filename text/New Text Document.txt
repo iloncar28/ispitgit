@@ -1,0 +1,9 @@
+git pull https://github.com/algebra-training/parcijalni-ispit.git
+git checkout -b ivan-loncar
+npm install easy
+(zapisana u package.json)
+izmjena: dodan <p>Ivan Loncar </p>
+git status
+git add .
+git commit -m "Ivan Lončar: Parcijalni ispit"
+git remote add git https://github.com/algebra-training/parcijalni-ispit
