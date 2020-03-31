@@ -5,5 +5,19 @@ npm install easy
 izmjena: dodan <p>Ivan Loncar </p>
 git status
 git add .
+git config user.email "ivan.loncar@t.ht.hr"
 git commit -m "Ivan Lončar: Parcijalni ispit"
 git remote add git https://github.com/algebra-training/parcijalni-ispit
+git remote add moj https://github.com/iloncar28/ispitgit.git
+git push -u moj ivan-loncar
+https://github.com/iloncar28/ispitgit
+
+
+ispit plus
+git checkout -b "ispit-plus"
+npm install polished
+
+git add .
+git commit -m "napravljeno - Ivan Loncar"
+git push -u moj ispit-plus
+
